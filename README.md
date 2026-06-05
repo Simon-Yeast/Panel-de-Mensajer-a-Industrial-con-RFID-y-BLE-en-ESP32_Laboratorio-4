@@ -136,9 +136,14 @@ monitor_speed = 115200
 
 ```text
 .
-├── platformio.ini
 ├── src/
+│   ├── CMakeLists.txt
 │   └── main.c
+├── include/
+├── lib/
+├── platformio.ini
+├── CMakeLists.txt
+├── sdkconfig.defaults
 └── README.md
 ```
 
